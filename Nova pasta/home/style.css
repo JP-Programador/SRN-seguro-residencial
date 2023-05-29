@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    display: flexbox;
+}
+.container-home {
+    display: flex;
+    flex-direction: column;
+}
+ img {
+  
+    width: 100vw;
+    height: 50vh;
+}
+.text-one {
+    position: relative;
+    bottom: 290px;
+    color: white;
+    font-size: 38px;
+    padding-right: 780px;
+
+}
+
+
+
+
