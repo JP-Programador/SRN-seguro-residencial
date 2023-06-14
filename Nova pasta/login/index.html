@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="logo"> <img src="../assets/logo.png"></div>
+        <div class="xx">
+            <div class="tex1"> <a href="../home/index.html">Home</a></div>
+            <div class="tex1"><a href="../About Us/index.html">Sobre Nós</a></div>
+            <div class="tex1"><a href="../Plans/index.html">Planos</a></div>
+            <div class="tex1"><a href="../Contact us/index.html">Entre em Contato</a></div>
+            <div class="tex1"><a href="../login/index.html">Portal do Cliente</a></div>
+        </div>
+    </header> 
+    
     <div class="container">
         <div class="box1">
             <div class="box-form">
@@ -16,12 +27,42 @@
                     <input type="email" name="email" id="email" placeholder="Digite seu email"  required> <br><br><br>
                     <label for="senha">Senha:</label> <br>
                     <input type="password" name="senha" id="senha" placeholder="Digite sua Senha" required> <br><br>
-                    <input type="submit" name="acessar" id="acessar" value="acessar" onclick="">
+                    <input type="submit" name="acessar" id="acessar" value="acessar" onclick="Acessar(senha.value, email.value)">
                 </form>
-                <h2>Frases aleatórias</h2>
+                <div id="slider">
+                    <div class="selected">Prevenção é a primeira linha de defesa!</div>
+                    <div>Você confia na segurança da sua casa?</div>
+                    <div>Investir em segurança é ter qualidade de vida!</div>
+                    <div>Antes prevenção que prejuizo!</div>
+                </div>
             </div>
         </div>
-        <div class="box2"></div>
+        <div class="box2"> <img src="../assets/logo.png" alt="logo da empresa"></div>
     </div>
+
+
+
+
+    <footer>
+        <div class="log-footer"><img src="../assets/logo.png"></div>
+        <div class="box-footer">
+            <a href="../Contact us/index.html">  <button> Entre em Contato  </button></a>
+            <div class="end">Endereço</div>
+            <span id="footer">Avenida Carlos Klein, Nº 2340 - Socorro, São Paulo - SP            </span>
+        </div>
+        <div class="sociais"> 
+            <div class="title-soc">Redes Sociais</div>
+            <div class="sub-so">Curta e siga a SRN nas redes sociais</div>
+            <div class="log-soc">
+                <img src="../assets/facebook.png">
+                <img src="../assets/twitter.png">
+                <img src="../assets/instagram.png">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
 </body>
 </html>
+
